@@ -1,0 +1,17 @@
+{
+  "name": "klf-node-talk",
+  "version": "1.0.0",
+  "description": "Reveal.js presentation for Kansas Linux Fest talk on node and npm.",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sethetter/klf-node-talk.git"
+  },
+  "author": "Seth Etter <sethetter@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethetter/klf-node-talk/issues"
+  },
+  "homepage": "https://github.com/sethetter/klf-node-talk"
+}
