@@ -203,6 +203,8 @@ _Came around in 2011_
 
 ![Growth of npm](https://cldup.com/1fqrUhKUO5.png)
 
+*~400% between 2013 and 2015*
+
 http://www.modulecounts.com/
 
 ----
