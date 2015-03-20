@@ -32,6 +32,7 @@
 
 ## Created by Ryan Dahl
 
+* Available for linux in 2009
 * Now in the hands of Joyent (his employer)
 
 ----
@@ -193,6 +194,8 @@ stream.on('data', function(data) {
 
 
 ![npm logo](https://cldup.com/Rv0XHM7d2Q.png)
+
+_Came around in 2011_
 
 ----
 
