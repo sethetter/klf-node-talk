@@ -117,31 +117,6 @@ Go Daddy, Microsoft, Uber, Yahoo, Google, Target, NBC, Best Buy, Wells Fargo
 
 
 
-![npm logo](https://cldup.com/Rv0XHM7d2Q.png)
-
-----
-
-## Explosive growth
-
-![Growth of npm](https://cldup.com/1fqrUhKUO5.png)
-
-http://www.modulecounts.com/
-
-----
-
-## node package manager, right?
-
-> Contrary to the belief of many, "npm" is not in fact an abbreviation for "Node
-Package Manager". It is a recursive bacronymic abbreviation for "npm is not an
-acronym". (If it was "ninaa", then it would be an acronym, and thus incorrectly
-named.)
-
-https://docs.npmjs.com/misc/faq
-
----
-
-
-
 # Node philosophies
 
 ----
@@ -205,7 +180,65 @@ fileStream.on('end', function() {
 
 
 
-# Publishing on npm
+![npm logo](https://cldup.com/Rv0XHM7d2Q.png)
+
+----
+
+## Explosive growth
+
+![Growth of npm](https://cldup.com/1fqrUhKUO5.png)
+
+http://www.modulecounts.com/
+
+----
+
+## node package manager, right?
+
+> Contrary to the belief of many, "npm" is not in fact an abbreviation for "Node
+Package Manager". It is a recursive bacronymic abbreviation for "npm is not an
+acronym". (If it was "ninaa", then it would be an acronym, and thus incorrectly
+named.)
+
+https://docs.npmjs.com/misc/faq
+
+---
+
+
+
+# Using npm
+
+----
+
+## Installing a module
+
+```
+$ npm install express
+```
+
+Local by default
+
+----
+
+## Global?
+
+```
+$ npm install -g http-server
+$ http-server
+```
+
+----
+
+## Using a module
+
+```
+var express = require('express');
+```
+
+---
+
+
+
+# Publishing your own modules!
 
 ----
 
