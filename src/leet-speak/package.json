@@ -1,0 +1,23 @@
+{
+  "name": "leet-speak",
+  "version": "1.0.0",
+  "description": "KLF example module, converts a chunk of text to 1337",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sethetter/klf-leet-speak.git"
+  },
+  "keywords": [
+    "example",
+    "klf"
+  ],
+  "author": "Seth Etter <sethetter@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethetter/klf-leet-speak/issues"
+  },
+  "homepage": "https://github.com/sethetter/klf-leet-speak"
+}
