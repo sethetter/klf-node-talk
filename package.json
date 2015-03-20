@@ -4,7 +4,7 @@
   "description": "Reveal.js presentation for Kansas Linux Fest talk on node and npm.",
   "main": "index.html",
   "scripts": {
-    "start": "node node_modules/reveal-md/bin/server-cli.js slides.md --theme solarized"
+    "start": "node node_modules/reveal-md/bin/server-cli.js slides.md --theme moon"
   },
   "repository": {
     "type": "git",

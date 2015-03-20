@@ -26,7 +26,7 @@
 
 
 
-# What is node?
+![node logo](https://cldup.com/GyrXJ3FQ2f.png)
 
 ----
 
@@ -68,6 +68,7 @@
 * Web apps & services
 * Desktop applications
 * Mobile applications
+* Internet of things
 * Network tools
 * System tools
 * Robots?!
@@ -76,7 +77,7 @@
 
 ## Node bots!
 
-![Nodebots](http://nodebots.io/img/equation.png)
+![Nodebots](https://cldup.com/RjNBP8oRZx.png)
 
 http://nodebots.io
 
@@ -96,7 +97,31 @@ https://github.com/joyent/node/wiki/projects,-applications,-and-companies-using-
 
 ----
 
-## Growth of npm
+
+## Job growth
+
+![node job growth](https://cldup.com/B-jBD_YmbR.png)
+
+https://strongloop.com/wp-content/uploads/2015/02/final-node-infographic-3-18-15v1.pdf
+
+----
+
+## Invading the enterprise
+
+Walmart, LinkedIn, PayPal, Dow Jones, eBay, GE, Alibaba, DirectTV, Symnatec,
+Go Daddy, Microsoft, Uber, Yahoo, Google, Target, NBC, Best Buy, Wells Fargo
+
+*..and more!*
+
+---
+
+
+
+![npm logo](https://cldup.com/Rv0XHM7d2Q.png)
+
+----
+
+## Explosive growth
 
 ![Growth of npm](https://cldup.com/1fqrUhKUO5.png)
 
@@ -104,10 +129,14 @@ http://www.modulecounts.com/
 
 ----
 
-## Invading the enterprise
+## node package manager, right?
 
-![Walmart]() ![LinkedIn]() ![PayPal]() ![Dow Jones]() ![eBay]() ![GE]()
-![Go Daddy]() ![Microsoft]() ![Uber]() ![Yahoo]() ![Google]()
+> Contrary to the belief of many, "npm" is not in fact an abbreviation for "Node
+Package Manager". It is a recursive bacronymic abbreviation for "npm is not an
+acronym". (If it was "ninaa", then it would be an acronym, and thus incorrectly
+named.)
+
+https://docs.npmjs.com/misc/faq
 
 ---
 
@@ -135,6 +164,10 @@ _sound familiar?_
 
 
 # Node patterns
+
+----
+
+## Async all the things!
 
 ----
 
@@ -188,7 +221,7 @@ npm adduser
 
 ----
 
-# Craete your package
+# Create your package
 
 ```
 npm init
