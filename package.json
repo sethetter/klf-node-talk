@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sethetter/klf-node-talk",
   "dependencies": {
-    "reveal-md": "0.0.16"
+    "reveal-md": "0.0.16",
+    "through": "^2.3.6"
   }
 }

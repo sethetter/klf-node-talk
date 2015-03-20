@@ -53,7 +53,7 @@
 
 ## Motivation
 
-* Web became super important 
+* Web became super important
 * Stuck with JavaScript in the browser
 * One language for the whole stack!
 
@@ -149,13 +149,30 @@ _sound familiar?_
 ## Callbacks
 
 ```
-doSomeAsyncThing(function(err, result) {
-  if (err) return console.error(err);
-  return console.log(result);
+var fs = require('fs');
+
+fs.readFile(__dirname + '/somefile.txt', function(err, contents) {
+  if (err) return console.error(err.message);
+  return console.log(contents.toString());
 });
 ```
 
 * Other patterns (like Promises), exist
+
+----
+
+## Streams
+
+```
+var fs = require('fs');
+var file = fs.createWriteStream(__dirname + '/output.txt');
+
+process.stdin.pipe(file);
+```
+
+```
+process.stdin.pipe(process.stdout);
+```
 
 ----
 
@@ -164,15 +181,10 @@ doSomeAsyncThing(function(err, result) {
 ```
 var fs = require('fs');
 
-var fileStream = fs.createReadStream(__dirname + '/somefile.txt');
-var result = '';
+var stream = fs.createReadStream('/dev/stdin');
 
-fileStream.on('data', function(data) {
-  result += data;
-});
-
-fileStream.on('end', function() {
-  console.log(result);
+stream.on('data', function(data) {
+  console.log(data.toString().toUpperCase());
 });
 ```
 

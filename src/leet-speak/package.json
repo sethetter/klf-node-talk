@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/sethetter/klf-leet-speak/issues"
   },
-  "homepage": "https://github.com/sethetter/klf-leet-speak"
+  "homepage": "https://github.com/sethetter/klf-leet-speak",
+  "dependencies": {}
 }
